@@ -13,7 +13,7 @@ function App() {
             <Navigation>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <a href={pdf} target="_blank">CV</a>
+                <a href={pdf} rel="noopener noreferrer" target="_blank">CV</a>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
