@@ -6,6 +6,7 @@ cache:
     - node_modules
 before_script:
   - npm install
+  - npm i create-react-app --save
   - npm i react-mdl --save
   - npm i react-router-dom --save
 script:

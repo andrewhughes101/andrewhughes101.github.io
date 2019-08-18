@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://andrewhughes101.github.io/my-website/",
   "dependencies": {
+    "create-react-app": "^3.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-mdl": "^1.11.0",
