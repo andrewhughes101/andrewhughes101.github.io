@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Content } from 'react-mdl';
-import Main from './components/main'
-import { Link } from 'react-router-dom'
+import Main from './components/main';
+import { Link } from 'react-router-dom';
+import pdf from './Andrew_Hughes_CV.pdf';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
             <Navigation>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <a href="./Andrew_Hughes_CV.pdf" target="blank">CV</a>
+                <a href={pdf} target="_blank">CV</a>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
