@@ -22,6 +22,9 @@ class Landing extends Component {
                 <a href="https://github.com/andrewhughes101" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github" aria-hidden="true" />
                 </a>
+                <a href="https://www.linkedin.com/in/andrew-hughes-902784180" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-linkedin" aria-hidden="true" />
+                </a>
                 <a href="https://twitter.com/andrewhughes101" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-twitter" aria-hidden="true" />
                 </a>

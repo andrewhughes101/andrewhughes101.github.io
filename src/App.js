@@ -7,9 +7,9 @@ import pdf from './Andrew_Hughes_CV.pdf';
 
 function App() {
   return (
-    <div className="demo-big-content">
-    <Layout>
-        <Header className="header-colour" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>}scroll>
+    <div style={{height: '300px', position: 'relative'}}>
+    <Layout fixedHeader>
+        <Header className="header-colour" title={<span><Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link></span>}>
             <Navigation>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
