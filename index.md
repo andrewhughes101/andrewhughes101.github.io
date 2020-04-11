@@ -1,10 +1,10 @@
-# Andrew Hughes
+Hi Im Andrew a software developer currently working at IBM
 
-- Resume
 - [GitHub](https://www.github.com/andrewhughes101)
 - [Twitter](https://www.twitter.com/andrewhughes101)
 - [LinkedIn](https://www.linkedin.com/in/andrewhughes101)
+- [Resume](../Andrew_Hughes_CV.pdf)
 
 Various notes:
 
-- Quantum
+- [Quantum](../QuantumNotes)
