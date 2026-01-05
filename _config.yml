@@ -1,0 +1,30 @@
+# Site settings
+title: Drew Hughes
+tagline: IBM Z Developer
+description: IBM Z Developer working on Ansible and configuration as code
+url: "https://andrewhughes101.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: Drew Hughes
+  email: andrew.hughes.101@outlook.com
+
+# Social
+github_username: andrewhughes101
+linkedin_username: andrewhughes101
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
